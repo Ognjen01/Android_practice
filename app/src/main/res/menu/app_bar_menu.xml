@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_setings2"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/ddContact"
+        android:title="Add Contact"
+        android:icon="@drawable/ic_add_contact"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/favorite"
+        android:title="Favorite"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_favorite"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/close"
+        android:title="Close"
+        app:showAsAction="never"/>
+
+</menu>
